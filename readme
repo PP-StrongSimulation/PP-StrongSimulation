@@ -1,0 +1,24 @@
+1. install g++ "brew install g++"
+
+2. install GMP 
+   1) download gmp-6.1.2 and unzip "xz -d gmp-6.1.2.tar.xz", "tar xvf gmp-6.1.2.tar "
+   2) "cd gmp-6.1.2"
+   2) "./configure --prefix=${HOME}/gmp/6.1.2"
+   3) "make"
+   4) "make check"
+   5) "make install"
+
+("brew install gmp")
+
+3. (optional) run "GraphTransformation" to assign random labels to vertices in Graph
+
+4. (optional) run "QueryGenerator" to randomly generate queires
+
+5. "g++ main.cpp -o main -std=c++17 -lgmp" ("cmake ."	"make")
+
+6. ./main query graph path
+
+e.g. "./main query/dia-4 graph/slashdot.txt path/dia4-path index/slashdot-4-Index1 index/slashdot-4-Index2"
+
+7. "chmod +x test.sh"
+   "./test.sh"

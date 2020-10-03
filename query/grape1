@@ -1,0 +1,9 @@
+# Undirected graph: ../../data/output/query1.txt
+# QUERY
+# Nodes: 5 Edges: 5
+# FromNodeId	Label	ToNodeId
+0	17	1	2
+1	4	2
+2	13	3
+3	16
+4	8	2
