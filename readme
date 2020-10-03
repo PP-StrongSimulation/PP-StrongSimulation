@@ -10,6 +10,12 @@
 
 ("brew install gmp")
 
+3. ./Pre-Test.sh
+
+4. ./test.sh
+
+-----------------------------------------------------
+
 3. (optional) run "GraphTransformation" to assign random labels to vertices in Graph
 
 4. (optional) run "QueryGenerator" to randomly generate queires
